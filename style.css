@@ -36,7 +36,7 @@ html {
     transition: color 0.3s;
 }
 .mys:hover {
-    color: green;
+    color: red;
 }
 .Devaty {
     color:deeppink;
