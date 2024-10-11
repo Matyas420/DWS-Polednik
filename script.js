@@ -37,13 +37,13 @@ const textElement = document.getElementById('myText');
     textElement.addEventListener('mouseout', function() {
      textElement.textContent = 'Přejeďte myší sem!';
 })
-//Osmý úkol
+//Osmý úkol po kliknutí na button se zobrazí aktuální čas
 function zobrazCas() {
     const čas = new Date();
     const aktuálníčas = čas.toLocaleTimeString('cs-CZ');
     document.getElementById('čas').textContent = `Aktuální čas: ${aktuálníčas}`;
 }
-//Devatý úkol
+//Devatý úkol po kliknutí na button se zobrazí aktuální datum
 function zobrazDatum() {
     const dnesnidatum = new Date();
     document.getElementById("datum").innerHTML = dnesnidatum.toLocaleString(); 
