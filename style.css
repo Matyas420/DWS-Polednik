@@ -1,0 +1,43 @@
+.second_2 {
+    width: 100px;
+    height: 100px;
+}
+.button {
+    background-color:darkgreen;
+    color:white;
+}
+html {
+    background-color:antiquewhite;
+    text-align: center;
+}
+.Prvni {
+    color:red;
+}
+.Druhy {
+    color:gray;
+}
+.Treti {
+    color:brown;
+}
+.Ctvrty {
+    color:blue;
+}
+.Paty {
+    color:cadetblue;
+}
+.Sedmy {
+    color:blueviolet;
+}
+.Osmy {
+    color:dodgerblue;
+}
+.mys {
+    font-size: 24px;
+    transition: color 0.3s;
+}
+.mys:hover {
+    color: green;
+}
+.Devaty {
+    color:deeppink;
+}
