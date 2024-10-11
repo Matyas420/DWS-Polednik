@@ -28,14 +28,15 @@ jmenobutton.addEventListener('click', function(){
     alert("Zdravím tě na této stránce "+jmeno.value)
 })
 //Sedmý úkol přejetím na text myší se změní
-const textElement = document.getElementById('myText');
+const mys = document.getElementById('myText');
+const text3 = document.getElementById('text3');
 
-    textElement.addEventListener('mouseover', function() {
-     textElement.textContent = 'Text se změnil!';
+    mys.addEventListener('mouseover', function() {
+     mys.textContent = 'Text se změnil!';
 })
 
-    textElement.addEventListener('mouseout', function() {
-     textElement.textContent = 'Přejeďte myší sem!';
+    mys.addEventListener('mouseout', function() {
+     mys.textContent = 'Přejeďte myší sem!';
 })
 //Osmý úkol po kliknutí na button se zobrazí aktuální čas
 function zobrazCas() {
