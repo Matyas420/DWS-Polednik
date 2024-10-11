@@ -45,6 +45,6 @@ function zobrazCas() {
 }
 //Devatý úkol
 function zobrazDatum() {
-            const datum = new Date(); // Získání aktuálního data a času
-            document.getElementById("datum").innerHTML = dnesniDatum.toLocaleString(); // Zobrazení formátovaného data
+            const datum = new Date();
+            document.getElementById("datum").innerHTML = datum.toLocaleString(); 
         }
