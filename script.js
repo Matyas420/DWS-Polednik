@@ -45,6 +45,6 @@ function zobrazCas() {
 }
 //Devatý úkol
 function zobrazDatum() {
-            const datum = new Date();
-            document.getElementById("datum").innerHTML = datum.toLocaleString(); 
+            const dnesnidatum = new Date();
+            document.getElementById("datum").innerHTML = dnesnidatum.toLocaleString(); 
         }
