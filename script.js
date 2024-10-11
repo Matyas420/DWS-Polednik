@@ -17,17 +17,17 @@ const text = document.getElementById('text');
 button.addEventListener('click', () => {
     text.textContent = 'Text byl změněn!';
 })
-//Čtvrtý úkol
+//Čtvrtý úkol kliknutím na tlačítko se objeví text
 const tlačítko = document.getElementById('tlačítko').addEventListener('click', function() {
     document.getElementById('text2').innerText = 'Text byl zobrazen!';
 })
-//Patý úkol
+//Patý úkol napsáním jména nebo cokoliv jiného, vám vyskočí alert s pozdravem
 const jmeno = document.getElementById('jmeno')
 
 jmenobutton.addEventListener('click', function(){
     alert("Zdravím tě na této stránce "+jmeno.value)
 })
-//Sedmý úkol 
+//Sedmý úkol přejetím na text myší se změní
 const textElement = document.getElementById('myText');
 
     textElement.addEventListener('mouseover', function() {
