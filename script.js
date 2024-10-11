@@ -39,12 +39,12 @@ const textElement = document.getElementById('myText');
 })
 //Osmý úkol
 function zobrazCas() {
-    const cas = new Date();
+    const čas = new Date();
     const aktuálníčas = čas.toLocaleTimeString('cs-CZ');
-    document.getElementById('cas').textContent = `Aktuální čas: ${aktuálníčas}`;
+    document.getElementById('čas').textContent = `Aktuální čas: ${aktuálníčas}`;
 }
 //Devatý úkol
 function zobrazDatum() {
-            const dnesnidatum = new Date();
-            document.getElementById("datum").innerHTML = dnesnidatum.toLocaleString(); 
-        }
+    const dnesnidatum = new Date();
+    document.getElementById("datum").innerHTML = dnesnidatum.toLocaleString(); 
+}
