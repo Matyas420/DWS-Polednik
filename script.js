@@ -82,10 +82,10 @@ function secti() {
 const obrazek = document.getElementById('kocka');
 
     
-        obrazek.addEventListener('mouseover', function() {
-            obrazek.style.transform = 'scale(1.2)';
-        });
+obrazek.addEventListener('mouseover', function() {
+obrazek.style.transform = 'scale(1.2)';
+});
 
-        obrazek.addEventListener('mouseout', function() {
-            obrazek.style.transform = 'scale(1)';
-        });
+obrazek.addEventListener('mouseout', function() {
+ obrazek.style.transform = 'scale(1)';
+});
