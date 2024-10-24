@@ -41,3 +41,34 @@ html {
 .Devaty {
     color:deeppink;
 }
+
+.prvni_2 {
+    color:darkblue;
+}
+
+.druhy_2 {
+    color:indigo;
+}
+
+body {
+    padding: 20px;
+}
+
+#vysledek {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#vysledek_2 {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.treti_2 {
+    color:crimson;
+}
+
+.obrazek {
+    width: 300px; 
+    transition: transform 0.3s ease; 
+}
