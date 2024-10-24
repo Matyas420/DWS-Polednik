@@ -49,3 +49,43 @@ function zobrazDatum() {
     const dnesnidatum = new Date();
     document.getElementById("datum").innerHTML = dnesnidatum.toLocaleString(); 
 }
+
+//Pokračování Dynamické webové stránky
+
+//První úkol přičtení čísla 3 k hodnotě, kterou uživatel zadá
+function pricteni() {
+    let hodnota = parseFloat(document.getElementById('vlozeni_cisla').value);
+
+    if (!isNaN(hodnota)) {
+        let vysledek = hodnota + 3;
+
+        document.getElementById('vysledek').innerHTML = "Výsledek: " + vysledek;
+    } else {
+        document.getElementById('vysledek').innerHTML = "Prosím, zadejte platné číslo.";
+    }
+}
+
+//Druhý úkol sečtení dvou čísel po zadání do textu
+function secti() {
+    let vstup = document.getElementById('cisla').value;
+    let cisla = vstup.split(',').map(Number);
+    
+    if (cisla.length == 2 && !isNaN(cisla[0]) && !isNaN(cisla[1])) {
+        let vysledek_2 = cisla[0] + cisla[1];
+        document.getElementById('vysledek_2').innerHTML = "Výsledek: " + vysledek_2;
+    } else {
+        document.getElementById('vysledek_2').innerHTML = "Zadejte prosím dvě platná čísla oddělená čárkou.";
+    }
+}
+
+//Třetí úkol najetím na obrázek se zvětší a potom se vrátí zpátky do původní podoby
+const obrazek = document.getElementById('kocka');
+
+    
+        obrazek.addEventListener('mouseover', function() {
+            obrazek.style.transform = 'scale(1.2)';
+        });
+
+        obrazek.addEventListener('mouseout', function() {
+            obrazek.style.transform = 'scale(1)';
+        });
