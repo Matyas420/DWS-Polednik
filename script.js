@@ -77,15 +77,3 @@ function secti() {
         document.getElementById('vysledek_2').innerHTML = "Zadejte prosím dvě platná čísla oddělená čárkou.";
     }
 }
-
-//Třetí úkol najetím na obrázek se zvětší a potom se vrátí zpátky do původní podoby
-const obrazek = document.getElementById('kocka');
-
-    
-obrazek.addEventListener('mouseover', function() {
-obrazek.style.transform = 'scale(1.2)';
-});
-
-obrazek.addEventListener('mouseout', function() {
- obrazek.style.transform = 'scale(1)';
-});
