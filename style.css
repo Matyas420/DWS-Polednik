@@ -42,11 +42,11 @@ html {
     color:deeppink;
 }
 
-.desaty {
+.prvni_2 {
     color:darkblue;
 }
 
-.jedenacty {
+.druhy_2 {
     color:indigo;
 }
 
@@ -64,11 +64,14 @@ body {
     font-weight: bold;
 }
 
-.dvanacty {
+.treti_2 {
     color:crimson;
 }
 
 .obrazek {
     width: 300px; 
     transition: transform 0.3s ease; 
+}
+.obrazek:hover {
+    transform: scale(1.2)
 }
