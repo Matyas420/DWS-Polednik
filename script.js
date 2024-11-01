@@ -68,7 +68,7 @@ function pricteni() {
 //Druhý úkol sečtení dvou čísel po zadání do textu
 function secti() {
     let vstup = document.getElementById('cisla').value;
-    let cisla = vstup.split(',').map(Number);
+    let cisla = vstup.split('+').map(Number);
     
     if (cisla.length == 2 && !isNaN(cisla[0]) && !isNaN(cisla[1])) {
         let vysledek_2 = cisla[0] + cisla[1];
