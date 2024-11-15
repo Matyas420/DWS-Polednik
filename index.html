@@ -51,26 +51,34 @@
         <button class="button" onclick="document.getElementById('datum').innerHTML = new Date().toLocaleString()">Zobrazit datum</button>
     <p id="datum"></p>
 
-     <!--Pokračování Dynamické webové stránky-->
+    <!--Pokračování Dynamické webové stránky 2.0-->
 
-    <div class="prvni_2">
-    <h1>Úkol č.1 Zadejte číslo</h1>
+    <div class="desaty">
+    <h1>Úkol č.10</h1>
     </div>
         <input type="text" id="vlozeni_cisla" placeholder="Zadejte číslo">
         <button class="button" onclick="pricteni()">Přičíst 3</button>
         <div id="vysledek"></div>
 
-    <div class="druhy_2">
-        <h1>Úkol č.2 sčítání</h1>
+    <div class="jedenacty">
+        <h1>Úkol č.11</h1>
     </div>
-        <input type="text" id="cisla" placeholder="Zadejte čísla a oddělte čárkou" size="25">
+        <input type="text" id="cisla" placeholder="Zadejte čísla a vložte mezi ně +" size="25">
         <button class="button" onclick="secti()">Sečíst</button>
         <div id="vysledek_2"></div>
 
-    <div class="treti_2">
-    <h1>Úkol č.3 zvětšení obrázku</h1>
+    <div class="dvanacty">
+    <h1>Úkol č.12</h1>
     </div>
-    <img src="kočka.jpg" alt="" class="obrazek">
+    <img src="kočka.jpg" alt="" id="kocka" class="obrazek">
+
+<!--Nový úkol 3.0-->
+    <div class="trinacty">
+    <h1>Správce úloh č.13</h1>
+    </div>
+    <input type="text" id="ulohaInput" placeholder="Zadejte úlohu">
+    <button class="button" onclick="pridat()">Přidat úlohu</button>
+    <div id="uloha"></div>
     <script src="script.js"></script>
 </body>
 </html>
