@@ -1,7 +1,7 @@
 //První úkol vyskočí alert
-let first = document.getElementById('first');
+    let first = document.getElementById('first');
 
-first.addEventListener('click', function(){
+    first.addEventListener('click', function(){
     alert("Něco se pokazilo.")
 })
 //Druhý úkol kliknutím na tlačítko se text v něm změní
@@ -49,10 +49,10 @@ function zobrazDatum() {
     const dnesnidatum = new Date();
     document.getElementById("datum").innerHTML = dnesnidatum.toLocaleString(); 
 }
-
+    
 //Pokračování Dynamické webové stránky
 
-//První úkol přičtení čísla 3 k hodnotě, kterou uživatel zadá
+//Desatý úkol přičtení čísla 3 k hodnotě, kterou uživatel zadá
 function pricteni() {
     let hodnota = parseFloat(document.getElementById('vlozeni_cisla').value);
 
@@ -65,7 +65,7 @@ function pricteni() {
     }
 }
 
-//Druhý úkol sečtení dvou čísel po zadání do textu
+//Jedenáctý úkol sečtení dvou čísel po zadání do textu
 function secti() {
     let vstup = document.getElementById('cisla').value;
     let cisla = vstup.split('+').map(Number);
@@ -76,4 +76,16 @@ function secti() {
     } else {
         document.getElementById('vysledek_2').innerHTML = "Zadejte prosím dvě platná čísla oddělená čárkou.";
     }
+}
+
+//Správce úloh
+function pridat() {
+    let ulohaInput = document.getElementById("ulohaInput").value
+    let uloha = document.getElementById('uloha');
+    uloha.innerHTML += "<p id="+ulohaInput+">"+ulohaInput+"<button onclick=smazat('"+ulohaInput+"')>Smazat</button></p>"
+
+}
+
+function smazat(id){
+    document.getElementById(id).remove()
 }
