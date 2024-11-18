@@ -42,12 +42,21 @@ html {
     color:deeppink;
 }
 
-.prvni_2 {
+.desaty {
     color:darkblue;
 }
 
-.druhy_2 {
+.jedenacty {
     color:indigo;
+}
+
+.dvanacty {
+    color:crimson;
+}
+
+
+.trinacty {
+    color:limegreen;
 }
 
 body {
